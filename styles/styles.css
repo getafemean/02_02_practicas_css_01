@@ -1,0 +1,22 @@
+/* Código CSS Sintaxis básica 
+
+selectores {
+    propiedad-css: valor;
+    ...
+    propiedad-css: valor;
+    ...
+}
+
+*/
+
+button {
+    padding: 10px 20px;
+    background-color: tomato;
+    color: white;
+    border: 1px solid tomato;
+    border-radius: 5px;
+}
+
+h1 {
+    color: green;
+}

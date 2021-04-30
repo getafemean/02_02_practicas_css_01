@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementación de CSS</title>
+    <!-- Implementación con archivo externo -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <!-- Implementación con el elemento style -->
+    <style>
+        li {
+            font-size: 20px;
+            color: blueviolet;
+        }
+    </style>
+    <button>Aceptar</button>
+    <ul>
+        <li>Peras</li>
+        <li>Manzanas</li>
+        <li>Plátanos</li>
+    </ul>
+    <!-- Implementación con el atributo style en el propio elemento -->
+    <h1 style="background-color: brown; color: white;">¡Hola Mundo!</h1>
+    <h1>Otro encabezado</h1>
+</body>
+</html>
+<!-- Orden de precedencia
+1.- Estilos en línea atributo style
+2.- Estilos en el elemento style 
+3.- Archivo externo -->
